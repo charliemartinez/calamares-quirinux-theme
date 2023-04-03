@@ -1,9 +1,9 @@
 # calamares-quirinux-theme
-##Themes for Quirinux Pro and Quirinux General
+## Themes for Quirinux Pro and Quirinux General
 
 Quirinux will have 2 editions: General and Pro. Therefore there will be two themes for Calamares.
 
-##Another subfolders
+## Another subfolders
 
 Quirinux will have 2 editions: General and Pro. Therefore there will be two themes for Calamares.
 

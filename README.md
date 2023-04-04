@@ -11,6 +11,21 @@ Quirinux will have 2 editions: General and Pro. Therefore there will be two them
 
 In this repository I also store the necessary files for other aspects of the theme when creating the iso with Piero Proietti's EGGS program.
 
+
+## USAGE
+
+```
+sudo eggs produce --theme ./calamares-quirinux-theme/general
+```
+
+or
+```
+sudo eggs produce --theme ./calamares-quirinux-theme/pro
+```
+
+Note: ```./``` this is the path, I'm using now from current dir, it's possibile to use elsewehere changin path.
+
+
 ### Known issues:
 
 1) Languages are not working.

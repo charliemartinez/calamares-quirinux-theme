@@ -4,7 +4,7 @@ Version=1.0
 Name=Install Quirinux
 Comment=Install system on hard disk
 
-Exec=sudo /sbin/install-debian
+Exec=sudo /usr/sbin/install-debian
 Keywords=calamares;system;install;debian;installer;quirinux
 Icon=install-debian
 Terminal=false

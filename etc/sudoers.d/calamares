@@ -1,0 +1,4 @@
+ALL ALL=NOPASSWD: /sbin/install-debian
+ALL ALL=NOPASSWD: /usr/sbin/install-debian
+ALL ALL=NOPASSWD: /usr/bin/calamares
+

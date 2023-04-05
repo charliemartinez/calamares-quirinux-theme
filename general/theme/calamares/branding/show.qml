@@ -35,9 +35,9 @@ Presentation {
     }
 
     Timer {
-        id: timer
-        interval: 5000
-        running: false
+        id: advanceTimer
+        interval: 7500
+        running: true
         repeat: true
         onTriggered: nextSlide()
     }
@@ -61,7 +61,7 @@ Presentation {
             text: qsTr("<h1>Quirinux General</h1>" +
                   "<h2>Based on Debian GNU/Linux</h2>" +
                   "<h3>https://www.quirinux.org/</h3>" +
-                  "<p>The UX and UI experience of Quirinux Pro,</br> the operating system of animated movies,</br> now also in this edition designed for general users,</br> which includes everything except programs for animation.</p>")
+                  "<p>The UX and UI experience of Quirinux Pro,<br/> the operating system of animated movies,<br/> now also in this edition designed for general users,<br/> which includes everything except programs for animation.</p>")
             wrapMode: Text.WordWrap
             width: kde.width
             horizontalAlignment: Text.Center

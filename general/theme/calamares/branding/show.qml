@@ -143,7 +143,7 @@ Presentation {
                 "<br/>" +
 				"<p>Logo created by: Thomas Gaya</p>"+
 				"<p>Beta Tester: Leonardo Besingor</p>"+
-				"<p>ISO creation system Penguin Eggs: Piero Proietti</p>")
+				"<p>ISO creation: penguins' eggs by Piero Proietti</p>")
 			wrapMode: Text.WordWrap
 			width: secure.width
 			horizontalAlignment: Text.Center

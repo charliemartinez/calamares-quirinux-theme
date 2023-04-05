@@ -35,9 +35,9 @@ Presentation {
     }
 
     Timer {
-        id: timer
-        interval: 5000
-        running: false
+        id: advanceTimer
+        interval: 7500
+        running: true
         repeat: true
         onTriggered: nextSlide()
     }
@@ -61,7 +61,8 @@ Presentation {
             text: qsTr("<h1>Quirinux General</h1>" +
                   "<h2>Based on Debian GNU/Linux</h2>" +
                   "<h3>https://www.quirinux.org/</h3>" +
-                  "<p>The UX and UI experience of Quirinux Pro,</br> the operating system of animated movies,</br> now also in this edition designed for general users,</br> which includes everything except programs for animation.</p>")
+                  "<br/>" +
+                  "<p>The UX and UI experience of Quirinux Pro,<br/> the operating system of animated movies,<br/> now also in this edition designed for general users,<br/> which includes everything except programs for animation.</p>")
             wrapMode: Text.WordWrap
             width: kde.width
             horizontalAlignment: Text.Center
@@ -86,6 +87,7 @@ Presentation {
             text: qsTr("<h1>Quirinux GNU/Linux</h1>" +
                   '<h2>The "Chameleon":</h2>' +
                   "<h3>The only operating system that adapts to you</h3>"+
+                  "<br/>" +
                   "<p>Choose from 12 screen themes including retro or vintage styles.</p>")
             wrapMode: Text.WordWrap
             width: neon.width
@@ -111,6 +113,7 @@ Presentation {
             anchors.top: background.top
             text: qsTr("<h1>Quirinux GNU/Linux</h1>" +
                   "<h2>Community support</h2>"+
+                  "<br/>" +
                   "<p>You can create a free account at http://foro.quirinux.org</p>")
             wrapMode: Text.WordWrap
             width: plasma.width
@@ -137,6 +140,7 @@ Presentation {
 			text: qsTr("<h1>Quirinux GNU/Linux</h1>" +
 				"<h2>Created by: Charlie Martinez</h2>" +
 				"<h3>email: cmartinez@quirinux.org</h3>"+
+                "<br/>" +
 				"<p>Logo created by: Thomas Gaya</p>"+
 				"<p>Beta Tester: Leonardo Besingor</p>"+
 				"<p>ISO creation system Penguin Eggs: Piero Proietti</p>")

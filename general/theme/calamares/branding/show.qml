@@ -143,7 +143,7 @@ Presentation {
                 "<br/>" +
 				"<p>Logo created by: Thomas Gaya</p>"+
 				"<p>Beta Tester: Leonardo Besingor</p>"+
-				"<p>ISO creation: Penguins' Eggs by Piero Proietti</p>+
+				"<p>ISO creation: Penguins' Eggs by Piero Proietti</p>"+
 				"<p>Special thanks to Javier Obregón,<br/>Pablo López (Etertics), Gustav González (Tupi),<br/>Gustavo Deveze, Patricia Mengui,<br/>Riky Linux, Geri Ratclife and Noelia Gerbaudo.</p>"+
 				"<p>Made in IDAC, Argentinal.</p>")
 			wrapMode: Text.WordWrap

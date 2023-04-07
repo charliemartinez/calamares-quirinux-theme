@@ -45,7 +45,7 @@ Presentation {
     Slide {
         Image {
             id: slide1
-            source: "slide_1.jpg"
+            source: "slide1.png"
             anchors.centerIn: parent
             anchors.top: background.bottom
             width: 810
@@ -71,7 +71,7 @@ Presentation {
     Slide {
         Image {
             id: slide2
-            source: "slide_2.jpg"
+            source: "slide2.png"
             anchors.centerIn: parent
             anchors.top: background.bottom
             width: 810
@@ -97,7 +97,7 @@ Presentation {
     Slide {
         Image {
             id: slide3
-            source: "slide_3.jpg"
+            source: "slide3.png"
             anchors.centerIn: parent
             anchors.top: background.bottom
             width: 810
@@ -130,7 +130,7 @@ Presentation {
     Slide {
         Image {
             id: slide4
-            source: "slide_4.jpg"
+            source: "slide4.png"
             anchors.centerIn: parent
             anchors.top: background.bottom
             width: 810
@@ -158,7 +158,7 @@ Presentation {
     Slide {
         Image {
             id: slide5
-            source: "slide_5.jpg"
+            source: "slide5.png"
             anchors.centerIn: parent
             anchors.top: background.bottom
             width: 810
@@ -187,7 +187,7 @@ Presentation {
     Slide {
 		Image {
 			id: slide6
-			source: "slide_6.jpg"
+			source: "slide6.png"
 			anchors.centerIn: parent
 			anchors.top: background.bottom
 			width: 810

@@ -62,7 +62,7 @@ Presentation {
                   "<h2>Basado en Debian GNU/Linux</h2>" +
                   "<h3>https://www.quirinux.org/</h3>" +
                   "<br />" +
-                  "La UX y UI de Quirinux Pro,<br/>el sistema operativo para el cine animado,<br /> ahora también en esta edición diseñada para el público en general que lo incluye todo, excepto los programas de animación.</p>")
+                  "<p>La UX y UI de Quirinux Pro,<br/>el sistema operativo para el cine animado,<br /> ahora también en esta edición diseñada para el público en general que lo incluye todo, excepto los programas de animación.</p>")
             wrapMode: Text.WordWrap
             width: kde.width
             horizontalAlignment: Text.Center
@@ -82,11 +82,12 @@ Presentation {
             font.family: "Helvetica"
             font.pixelSize : 12
             color: "#1a1a1a"
-            anchors.horizontalCenter: slide1.horizontalCenter
+            anchors.horizontalCenter: slide2.horizontalCenter
             anchors.top: background.top
             text: qsTr("<h1>Quirinux General</h1>" +
                   "<h2>Programas preinstalados:</h2>" +
-			"<p>Libre Office y Utilidades para PDF<br /> Software para Escanear<br /> GIMP Quirinux (Con Íconos y Atajos de Photoshop)<br /> Utilidades para organizar y reducir peso de imágenes Editor de video Kdenlive (Similar a Peremiere)<br /> Mozilla Firefox<br /> Creación de CD/DVD<br /> Editor de Audio Audacity<br /> Reproductor VLC y Conversores Multimedia<br /> Teclado y Pizarra en Pantalla<br /> Compatibilidad con Impresoras y Webcams<br />Calculadora, KPaint, Recortes, y Juegos.</p>")
+                  "<br/>" +
+			"<p>Libre Office y Utilidades para PDF<br /> Software para Escanear<br /> GIMP Quirinux (Con Íconos y Atajos de Photoshop)<br /> Utilidades para organizar y reducir peso de imágenes<br /> Editor de video Kdenlive (Similar a Peremiere)<br /> Mozilla Firefox y KTorrent<br /> Creación de CD/DVD<br /> Editor de Audio Audacity<br /> Reproductor VLC y Conversores Multimedia<br /> Teclado y Pizarra en Pantalla<br /> Compatibilidad con Impresoras y Webcams<br />Calculadora, KPaint, Recortes, y Juegos.</p>")
             wrapMode: Text.WordWrap
             width: kde.width
             horizontalAlignment: Text.Center
@@ -107,13 +108,17 @@ Presentation {
             font.family: "Helvetica"
             font.pixelSize : 12
             color: "#1a1a1a"
-            anchors.horizontalCenter: slide2.horizontalCenter
+            anchors.horizontalCenter: slide3.horizontalCenter
             anchors.top: background.top
             text: qsTr("<h1>Quirinux GNU/Linux</h1>" +
                   '<h2>EL "Camaleón":</h2>' +
+                  "<br/>" +
                   "<h3>El único sistema operativo que se adapta al la persona usuaria.</h3>" +
+                  "<br/>" +
                   "<p>¡12 temas de escritorio para elegir, incluyendo estilos retro y vintage!</p>" +
+                  "<br/>" +
 		  "<p>Temas incluidos:</p>"+
+          "<br/>" +
 		  "<p>Win Dark<br />Win Luz<br />Win Mix<br />Xp<br />Mac<br />Mac Vintage<br />Retro<br />Clásico<br />Quirinux 1<br />Quirinux 1.2 (Spartan)<br />Quirinux General<br />Quirinux Pro<br /></p>" +
 		"<p>Accede desde: Asistente Quirinux - Apariencia Win/Mac</p>")
             wrapMode: Text.WordWrap
@@ -136,13 +141,14 @@ Presentation {
             font.family: "Helvetica"
             font.pixelSize : 12
             color: "#1a1a1a"
-            anchors.horizontalCenter: slide3.horizontalCenter
+            anchors.horizontalCenter: slide4.horizontalCenter
             anchors.top: background.top
             text: qsTr("<h1>Quirinux GNU/Linux</h1>" +
                   "<h2>Centro de Software</h2>"+
                  	 "<br/>" +
                  	 "<h3>La forma más fácil de instalar programas</h3>"+
-		 	 "<p>Si sabes instalar cosas en un teléfono Android,<br />entonces sabrás instalar programas en Quirinux.<br />Accede al <b>Centro de software y utiliza el<br />buscador incorporado para encontrar lo que necesites<br />dentro del amplio catálogo de aplicaciones para Debian<br />y las aplicaciones exclusivas del repositorio de quirinux"</p>)"
+                      "<br/>" +
+		 	 "<p>Si sabes instalar cosas en un teléfono Android,<br />entonces sabrás instalar programas en Quirinux.<br />Accede al <b>Centro de software y utiliza el<br />buscador incorporado para encontrar lo que necesites<br />dentro del amplio catálogo de aplicaciones para Debian<br />y las aplicaciones exclusivas del repositorio de quirinux</p>)"
             wrapMode: Text.WordWrap
             width: plasma.width
             horizontalAlignment: Text.Center
@@ -163,7 +169,7 @@ Presentation {
             font.family: "Helvetica"
             font.pixelSize : 12
             color: "#1a1a1a"
-            anchors.horizontalCenter: slide3.horizontalCenter
+            anchors.horizontalCenter: slide5.horizontalCenter
             anchors.top: background.top
             text: qsTr("<h1>Quirinux GNU/Linux</h1>" +
                   "<h2>Soporte comunicario</h2>"+
@@ -171,7 +177,7 @@ Presentation {
                  	 "<h3>Crea tu cuenta gratis en: https://foro.quirinux.org</h3>"+
 		 	 "<p>Encontrarás entre otras secciones:</p>" +
 		 	  "<br />" +
-                   "<p>Tutoriales</p>Eventos Principales y a distancia<br />Principiantes<br />Instalación y arranque<br />Interfaz gráfica<br />Redes y conectividad<br />Software y aplicaciones<br />Soporte de hardware<br />Máquinas virtuales<br />Preguntas no técnicas</p>")
+                   "<p>Tutoriales<br />Eventos Principales y a distancia<br />Principiantes<br />Instalación y arranque<br />Interfaz gráfica<br />Redes y conectividad<br />Software y aplicaciones<br />Soporte de hardware<br />Máquinas virtuales<br />Preguntas no técnicas</p>")
             wrapMode: Text.WordWrap
             width: plasma.width
             horizontalAlignment: Text.Center
@@ -192,7 +198,7 @@ Presentation {
 			font.family: "Helvetica"
 			font.pixelSize : 12
 			color: "#1a1a1a"
-			anchors.horizontalCenter: slide4.horizontalCenter
+			anchors.horizontalCenter: slide6.horizontalCenter
 			anchors.top: background.top
 			text: qsTr("<h1><b>Quirinux GNU/Linux<b></h1>" +
 				"<h2>Creado por: Charlie Martinez</h2>" +
@@ -206,4 +212,3 @@ Presentation {
 		}
     } 		
 }
-

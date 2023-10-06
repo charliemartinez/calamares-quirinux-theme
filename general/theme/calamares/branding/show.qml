@@ -62,8 +62,8 @@ Presentation {
 				"<h2>Creado por: Charlie Martinez (Carlos Mariano Martínez Bourio)</h2>" +
 				"<h3>Email: cmartinez@quirinux.org</h3>" +
               	                "<br/><br/>" +
-				"Logotipo de: Thomas Gaya.<br/>Beta Tester: Leonardo Besingor.<br/>Sistema de creación de ISO: Penguins' Eggs, de Piero Proietti.</p><br/><br/> Gracias totales a Javier Obregón, Pablo López (Etertics),<br/>Gustav González (Tupi),<br/>Gustavo Deveze, Patricia Mengui,<br/>Riky Linux, Geri Ratclife y Noelia Gerbaudo.<br/><br/>"+
-                "Hecho en IDAC, Avellaneda (Argentina),<br/>Santiago de Compostela y Roma.")
+				"Logotipo de: Thomas Gaya.<br/>Sistema de creación de ISO: Penguins' Eggs, de Piero Proietti.</p><br/>Voluntarios beta-testers: Noelia Gerbaudo, Leonardo Besingor y Sela González.<br/><br/> Gracias totales a Javier Obregón, Pablo López (Etertics),<br/>Gustav González (Tupi),<br/>Gustavo Deveze, Patricia Mengui,<br/>Riky Linux, Bazza y Geri Ratclife.<br/><br/>"+
+                "Hecho en Buenos Aires (Argentina),<br/>Santiago de Compostela (Galicia, España) y Roma (Italia).")
 			wrapMode: Text.WordWrap
 			width: secure.width
 			horizontalAlignment: Text.Center
